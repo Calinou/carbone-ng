@@ -1,0 +1,39 @@
+# Translation by kaeza
+
+[maptools] loaded. = [maptools] cargado.
+
+Cloud = Nube
+Infinite Fuel = Combustible Infinito
+Admin Pickaxe = Pico de Administrador
+Copper Coin = Moneda de Cobre
+Silver Coin = Moneda de Plata
+Gold Coin = Moneda de Oro
+Super Apple = Super Manzana
+Fake Ladder = Escalera Falsa
+Smoke Block = Bloque de Humo
+Damaging Block: %s = Bloque Dañino: %s
+Kill Block = Bloque Mortal
+Build Prevention = Bloqueador de Construcción
+Interact Prevention = Bloqueador de Interacción
+Climb Block = Bloque Escalable
+Light Block = Bloqueador de Luz
+Light Bulb = Lamparilla
+Player Clip = Bloqueo de Jugador
+Full Clip = Bloqueo Total
+
+Unbreakable Stone = Piedra Irrompible
+Unbreakable Sand = Arena Irrompible
+Unbreakable Desert Stone = Piedra Desértica Irrompible
+Unbreakable Desert Sand = Arena Desértica Irrompible
+Unbreakable Gravel = Gravilla Irrompible
+Unbreakable Dirt = Tierra Irrompible
+Unbreakable Dirt with Grass = Hierba Irrompible
+Unbreakable Full Grass= Bloque de Hierba Irrompible
+Unbreakable Brick = Ladrillos Irrompibles
+Unbreakable Wooden Planks = Planchas de Madera Irrompibles
+Unbreakable Tree = Tronco de Árbol Irrompible
+Unbreakable Glass = Cristal Irrompible
+Unbreakable Sandstone = Arenisca Irrompible
+Unbreakable Leaves = Foliaje Irrompible
+Unbreakable Cobblestone = Guijarros Irrompibles
+Unbreakable Mossy Cobblestone = Guijarros Enmohecidos Irrompibles

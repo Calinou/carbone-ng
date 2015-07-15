@@ -1,0 +1,13 @@
+
+#
+# Sample configuration file for xban mod.
+#
+
+# Whether guest accounts are disallowed.
+#kick_guests = false
+
+# Default ban message.
+#ban_message = Because random.
+
+# Default kick message for guests.
+#guest_kick_message = Guest accounts are not allowed in this server. Please choose a proper username and try again in a few minutes.

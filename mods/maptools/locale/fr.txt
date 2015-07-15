@@ -1,0 +1,47 @@
+# Translation by Calinou
+
+[maptools] loaded. = [maptools] a été chargé.
+
+Cloud = Nuage
+Infinite Fuel = Carburant infini
+Admin Pickaxe = Pioche d'administrateur
+Admin Pickaxe With Drops = Pioche d'administrateur qui donne des objets
+Copper Coin = Pièce de cuivre
+Silver Coin = Pièce d'argent
+Gold Coin = Pièce d'or
+Super Apple = Super pomme
+Fake Ladder = Fausse échelle
+Smoke Block = Bloc de fumée
+Damaging Block: %s = Bloc de dégâts : %s
+Kill Block = Bloc qui tue
+Build Prevention = Prévention de construction
+Interact Prevention = Prévention d'interaction
+Climb Block = Bloc à grimper
+Light Block = Bloqueur de lumière
+Light Bulb = Bloc lumineux
+Player Clip = Bloque-joueurs
+Player Clip Bottom Face = Face inférieure de bloque-joueurs
+Player Clip Top Face = Face supérieure de bloque-joueurs
+Full Clip = Bloque-tout
+Full Clip Face = Face de bloque-tout
+Permanent Fire = Feu permanent
+Fake Fire = Faux feu
+Igniter = Incendieur
+Pusher: %s = Pousseur : %s
+
+Unbreakable Stone = Pierre incassable
+Unbreakable Sand = Sable incassable
+Unbreakable Desert Stone = Pierre de désert incassable
+Unbreakable Desert Sand = Sable de désert incassable
+Unbreakable Gravel = Gravier incassable
+Unbreakable Dirt = Terre incassable
+Unbreakable Dirt with Grass = Herbe incassable
+Unbreakable Full Grass= Bloc d'herbe incassable
+Unbreakable Brick = Briques incassables
+Unbreakable Wooden Planks = Planches de bois incassables
+Unbreakable Tree = Tronc d'arbre incassable
+Unbreakable Glass = Verre incassable
+Unbreakable Sandstone = Grès incassable
+Unbreakable Leaves = Feuillage incassable
+Unbreakable Cobblestone = Pierre taillée incassable
+Unbreakable Mossy Cobblestone = Pierre taillée mousseusse incassable
