@@ -1,0 +1,9 @@
+-- If true, automatically hides the armor when the player wears no armor.
+-- Otherwise, the armor bar shows “0%”.
+
+--hbarmor.autohide = true
+
+-- Time difference in seconds between updates to the HUD armor bar.
+-- Increase this number for slow servers.
+
+-- hbarmor.tick = 0.1
