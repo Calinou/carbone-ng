@@ -11,7 +11,7 @@ distributed without any warranty.
 SPRINT_METHOD = 1
 SPRINT_SPEED = 1.25
 SPRINT_JUMP = 1.1
-SPRINT_STAMINA = 10
+SPRINT_STAMINA = 20
 SPRINT_TIMEOUT = 0.5 --Only used if SPRINT_METHOD = 0
 
 if minetest.get_modpath("hudbars") ~= nil then
