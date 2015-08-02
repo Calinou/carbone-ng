@@ -49,7 +49,7 @@ THROWING_ARROW_ENTITY.on_step = function(self, dtime)
 		for k, obj in pairs(objs) do
 			if obj:get_luaentity() ~= nil then
 				if obj:get_luaentity().name ~= "throwing:arrow_entity" and obj:get_luaentity().name ~= "__builtin:item" then
-					local damage = 3
+					local damage = 2
 					obj:punch(self.object, 1.0, {
 						full_punch_interval = 1.0,
 						damage_groups= {fleshy = damage},
@@ -58,7 +58,7 @@ THROWING_ARROW_ENTITY.on_step = function(self, dtime)
 					self.object:remove()
 				end
 			else
-				local damage = 3
+				local damage = 2
 				obj:punch(self.object, 1.0, {
 					full_punch_interval = 1.0,
 					damage_groups= {fleshy = damage},
@@ -86,13 +86,13 @@ minetest.register_entity("throwing:arrow_entity", THROWING_ARROW_ENTITY)
 minetest.register_craft({
 	output = "throwing:arrow 16",
 	recipe = {
-		{"default:stick", "default:stick", "group:ingot"},
+		{"group:stick", "group:stick", "default:default:cobble"},
 	}
 })
 
 minetest.register_craft({
 	output = "throwing:arrow 16",
 	recipe = {
-		{"group:ingot", "default:stick", "default:stick"},
+		{"default:cobble", "group:stick", "group:stick"},
 	}
 })

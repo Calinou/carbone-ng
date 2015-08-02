@@ -1,6 +1,7 @@
 arrows = {
 	{"throwing:arrow", "throwing:arrow_entity"},
 	{"throwing:arrow_gold", "throwing:arrow_gold_entity"},
+	{"throwing:arrow_gold", "throwing:arrow_steel_entity"},
 	{"throwing:arrow_fire", "throwing:arrow_fire_entity"},
 	{"throwing:arrow_teleport", "throwing:arrow_teleport_entity"},
 	{"throwing:arrow_dig", "throwing:arrow_dig_entity"},
@@ -177,6 +178,7 @@ minetest.register_craft({
 
 dofile(minetest.get_modpath("throwing") .. "/arrow.lua")
 dofile(minetest.get_modpath("throwing") .. "/golden_arrow.lua")
+dofile(minetest.get_modpath("throwing") .. "/steel_arrow.lua")
 dofile(minetest.get_modpath("throwing") .. "/fire_arrow.lua")
 dofile(minetest.get_modpath("throwing") .. "/teleport_arrow.lua")
 dofile(minetest.get_modpath("throwing") .. "/dig_arrow.lua")
