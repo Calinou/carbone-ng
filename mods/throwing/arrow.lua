@@ -49,7 +49,7 @@ THROWING_ARROW_ENTITY.on_step = function(self, dtime)
 		for k, obj in pairs(objs) do
 			if obj:get_luaentity() ~= nil then
 				if obj:get_luaentity().name ~= "throwing:arrow_entity" and obj:get_luaentity().name ~= "__builtin:item" then
-					local damage = 2
+					local damage = 1
 					obj:punch(self.object, 1.0, {
 						full_punch_interval = 1.0,
 						damage_groups= {fleshy = damage},
@@ -58,7 +58,7 @@ THROWING_ARROW_ENTITY.on_step = function(self, dtime)
 					self.object:remove()
 				end
 			else
-				local damage = 2
+				local damage = 1
 				obj:punch(self.object, 1.0, {
 					full_punch_interval = 1.0,
 					damage_groups= {fleshy = damage},

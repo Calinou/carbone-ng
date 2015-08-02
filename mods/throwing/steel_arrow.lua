@@ -1,5 +1,5 @@
 minetest.register_craftitem("throwing:arrow_steel", {
-	description = "steelen Arrow",
+	description = "Steel Arrow",
 	inventory_image = "throwing_arrow_steel.png",
 })
 
@@ -49,7 +49,7 @@ THROWING_arrow_steel_ENTITY.on_step = function(self, dtime)
 		for k, obj in pairs(objs) do
 			if obj:get_luaentity() ~= nil then
 				if obj:get_luaentity().name ~= "throwing:arrow_steel_entity" and obj:get_luaentity().name ~= "__builtin:item" then
-					local damage = 5
+					local damage = 3
 					obj:punch(self.object, 1.0, {
 						full_punch_interval = 1.0,
 						damage_groups= {fleshy = damage},
@@ -58,7 +58,7 @@ THROWING_arrow_steel_ENTITY.on_step = function(self, dtime)
 					self.object:remove()
 				end
 			else
-				local damage = 5
+				local damage = 3
 				obj:punch(self.object, 1.0, {
 					full_punch_interval = 1.0,
 					damage_groups= {fleshy = damage},

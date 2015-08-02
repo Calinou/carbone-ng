@@ -49,9 +49,9 @@ minetest.register_tool("throwing:bow_wood", {
 minetest.register_craft({
 	output = "throwing:bow_wood",
 	recipe = {
-		{"farming:cotton", "default:wood", ""},
-		{"farming:cotton", "", "default:wood"},
-		{"farming:cotton", "default:wood", ""},
+		{"farming:cotton", "group:wood", ""},
+		{"farming:cotton", "", "group:wood"},
+		{"farming:cotton", "group:wood", ""},
 	}
 })
 
